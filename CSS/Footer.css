@@ -33,6 +33,7 @@
 	color:blueviolet;
 }
 
+
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align:center;
