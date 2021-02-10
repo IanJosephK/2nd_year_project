@@ -1,1 +1,1 @@
-# 2nd_year_project
+# 2nd_year_mini-project
