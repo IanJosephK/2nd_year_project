@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+	background-color: dodgerblue;
+	font-family:monospace;
+	padding: 20px ;
+		border-radius: 10px;
+}
+
+.bg-img {
+
+
+  /* Control the height of the image */
+  min-height: 380px;
+	text-align: center;
+	background-color: darksalmon;
+	border-radius: 10px;
+	
+
+}
+
+body{
+	
+}
+
+/* Add styles to the form container */
+.box {
+  display: inline-block;
+  margin: 20px;
+  max-width: 700px;
+  padding: 16px;
+  background-color: darkorange;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.b{
+	text-align: center;
+}
+
+.op{
+	text-align: center;
+}
+
+/* Full-width input fields */
+  input,select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input:focus , select:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  font-family:monospace;
+  border: none;
+  cursor: pointer;
+	font-size: 17px;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+	margin: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}

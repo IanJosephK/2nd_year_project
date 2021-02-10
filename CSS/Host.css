@@ -1,0 +1,129 @@
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 16px;
+  border: none;
+	width: 300px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+	width: 300px;
+  position: absolute;
+  background-color: dodgerblue;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:white;
+	background-color: dodgerblue
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: darkorange;
+	opacity: 0.75;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color:darkorange;
+	color: blueviolet
+	opacity: 0.75
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+h1{
+	background-color: dodgerblue;
+	font-family:monospace;
+	padding: 20px ;
+		border-radius: 10px;
+}
+
+.bg-img {
+
+
+  /* Control the height of the image */
+  min-height: 380px;
+	text-align: center;
+	background-color: darksalmon;
+	border-radius: 10px;
+	
+
+}
+
+body{
+	
+}
+
+/* Add styles to the form container */
+.box {
+  display: inline-block;
+  margin: 20px;
+  max-width: 700px;
+  padding: 16px;
+  background-color: darkorange;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.b{
+	text-align: center;
+}
+
+/* Full-width input fields */
+  input,select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input:focus , select:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  font-family:monospace;
+  border: none;
+  cursor: pointer;
+	font-size: 17px;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+	margin: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}

@@ -1,0 +1,65 @@
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow:hidden;
+  background-color: darkorange;
+	padding: 20px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+.header a{
+
+float:right; 
+text-align: center;
+color: black;
+font-size: 50px;
+line-height: 40px;
+border-radius: 4px;
+}
+
+.header a:hover{
+	background-color: dodgerblue;
+	color:blueviolet;
+	opacity: 0.75;
+}
+
+.options{
+
+	line-height: 30px;
+	overflow:hidden;
+	background-color: dodgerblue;
+	padding: 10px 10px;
+	top: 95px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.options a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: inherit;
+  text-decoration: none;
+	
+}
+
+.options a:hover{
+	background-color:darkorange;
+	color:blueviolet;
+	opacity: 0.75;
+}
+
+.Home{
+	width: 300px
+}
+
+.upcomingevents{
+	width: 300px
+}
+
+.completedevents{
+	width: 300px;
+}
+
+
